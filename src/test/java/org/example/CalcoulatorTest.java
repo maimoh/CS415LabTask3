@@ -8,7 +8,7 @@ public class CalcoulatorTest {
     @Test
     void testAddition() {
         Calcoulator calc = new Calcoulator();
-        assertEquals(5, calc.add(2, 3));
+        assertEquals(6, calc.add(2, 3));
     }
 
     @Test
